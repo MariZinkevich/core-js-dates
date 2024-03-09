@@ -65,7 +65,7 @@ describe('core-js-dates', () => {
   );
 
   it.optional(
-    'getDayName should returns the name of the day of the week for the passed date',
+    'getNextFriday should returns the name of the day of the week for the passed date',
     () => {
       assert.equal(tasks.getDayName('01 Jan 1970 00:00:00 UTC'), 'Thursday');
       assert.equal(tasks.getDayName('03 Dec 1995 00:12:00 UTC'), 'Sunday');
